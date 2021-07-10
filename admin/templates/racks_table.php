@@ -1,7 +1,14 @@
-<!-- Users DataTables -->
+<!-- Racks DataTables -->
 <div class="rounded shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Racks DataTables</h6>
+    <div class="card-header py-3"> 
+        <div class="row">
+            <div class="col text-left">
+                <h6 class="m-0 font-weight-bold text-primary">Racks DataTables</h6>
+            </div>
+            <div class="col text-right">
+                <a href="#" data-toggle="modal" data-target="#addRacksModal" class="btn btn-sm btn-success shadow-sm"><i class="fas fa-plus"></i> Add Data</a>
+            </div>
+        </div>
     </div>
     <div class="card-body">
         <div class="table-responsive">
@@ -36,9 +43,9 @@
                 		    <td><?= $no++; ?></td>
                             <td><?= $data['id_rak_buku']; ?></td>
                             <td><?= $data['nama_rak_buku']; ?></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/view.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-info shadow btn-block">Lihat</a></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/edit.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-primary shadow btn-block">Edit</a></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/delete.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-danger shadow btn-block">Hapus</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/view.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-info shadow btn-block shadow-sm">Lihat</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/edit.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-primary shadow btn-block shadow-sm">Edit</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/delete.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-danger shadow btn-block shadow-sm">Hapus</a></td>
                         </tr>
             		<?php } ?>
                 </tbody>

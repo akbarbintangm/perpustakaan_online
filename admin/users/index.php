@@ -57,6 +57,10 @@
 
     <?php
         require_once "../templates/modal_logout.php";
+        require_once "../templates/modal_users.php";
+        require_once "../templates/modal_racks.php";
+        require_once "../templates/modal_category.php";
+        require_once "../templates/modal_books.php";
     ?>
 </body>
 
