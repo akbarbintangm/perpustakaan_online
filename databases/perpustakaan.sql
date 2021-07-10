@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 09, 2021 at 06:52 PM
--- Server version: 10.4.18-MariaDB
--- PHP Version: 8.0.3
+-- Generation Time: Jul 10, 2021 at 03:17 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -143,6 +143,8 @@ INSERT INTO `rak_buku` (`id_rak_buku`, `nama_rak_buku`) VALUES
 CREATE TABLE `user` (
   `id_user` int(100) NOT NULL,
   `nama_user` varchar(100) NOT NULL,
+  `alamat_user` text NOT NULL,
+  `pilihan` varchar(100) NOT NULL,
   `username_user` varchar(100) NOT NULL,
   `password_user` varchar(100) NOT NULL,
   `email_user` varchar(100) NOT NULL,
@@ -154,17 +156,17 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id_user`, `nama_user`, `username_user`, `password_user`, `email_user`, `foto_user`, `ktp_user`) VALUES
-(789, 'rahma syakila putri', 'rahma syakila', 'syakilala2', 'syakilarahma4@gmail.com', '789-rahma syakila putri.jpg', '789-rahma syakila putri.pdf'),
-(790, 'Dian saputri', 'dian saputri23', 'saputri890', 'saputrisian@gmail.com', '790-Dian saputri.jpg', '790-Dian saputri.pdf'),
-(791, 'Putra Aditya Anggoro', 'Putra Aditya', 'Aditya678', 'anggoroaditya5@gmail.com', '791-Putra Aditya Anggoro.jpg', '791-Putra Aditya Anggoro.pdf'),
-(792, 'Natasya Virginta Sari', 'Natasya Virginta', 'Virginta67', 'virgintasari8@gmail.com', '792-Natasya Virginta Sari.jpg', '792-Natasya Virginta Sari.pdf'),
-(793, 'Novan Agya Putra', 'Novan Agya', 'agya67', 'agyanovan3@gmail.com', '793-Novan Agya Putra.jpg', '793-Novan Agya Putra.pdf'),
-(794, 'Bagas Syahputra Reza', 'Bagas Syahputra5', 'Syahputra56', 'syahputrabagas5@gmail.com', '794-Bagas Syahputra Reza.jpg', '794-Bagas Syahputra Reza.pdf'),
-(795, 'Cinta Feny Kurnia', 'Cinta Feny', 'Kurnia88', 'Kurniafeny77@gmail.com', '795-Cinta Feny Kurnia.jpg', '795-Cinta Feny Kurnia.pdf'),
-(796, 'Novemberia Anggun Saputri', 'Novemberia Saputri', 'saputri889', 'saputrinovemberia99@gmail.com', '796-Novemberia Anggun Saputri.jpg', '796-Novemberia Anggun Saputri.pdf'),
-(797, 'Riko Bagus Saputro', 'Riko saputro', 'saputro009', 'saputrobagus887@gmail.com', '797-Riko Bagus Saputro.jpg', '797-Riko Bagus Saputro.pdf'),
-(798, 'Reza Candra laksana', 'Reza Laksana', 'Laksana667', 'laksanacandra556@gmail.com', '798-Reza Candra laksana.jpg', '798-Reza Candra laksana.pdf');
+INSERT INTO `user` (`id_user`, `nama_user`, `alamat_user`, `pilihan`, `username_user`, `password_user`, `email_user`, `foto_user`, `ktp_user`) VALUES
+(789, 'rahma syakila putri', 'Surabaya,jl mangga 2 ', 'mahasiswa', 'rahma syakila', 'syakilala2', 'syakilarahma4@gmail.com', '789-rahma syakila putri.jpg', '789-rahma syakila putri.pdf'),
+(790, 'Dian saputri', 'malang,jl.apel 6', 'dosen', 'dian saputri23', 'saputri890', 'saputrisian@gmail.com', '790-Dian saputri.jpg', '790-Dian saputri.pdf'),
+(791, 'Putra Aditya Anggoro', 'surabaya,jl. semangka 7', 'mahasiswa', 'Putra Aditya', 'Aditya678', 'anggoroaditya5@gmail.com', '791-Putra Aditya Anggoro.jpg', '791-Putra Aditya Anggoro.pdf'),
+(792, 'Natasya Virginta Sari', 'surabaya,jl.melon 4', 'umum', 'Natasya Virginta', 'Virginta67', 'virgintasari8@gmail.com', '792-Natasya Virginta Sari.jpg', '792-Natasya Virginta Sari.pdf'),
+(793, 'Novan Agya Putra', 'surabaya,jl leci 9', 'dosen', 'Novan Agya', 'agya67', 'agyanovan3@gmail.com', '793-Novan Agya Putra.jpg', '793-Novan Agya Putra.pdf'),
+(794, 'Bagas Syahputra Reza', 'malang, jl manggis', 'umum', 'Bagas Syahputra5', 'Syahputra56', 'syahputrabagas5@gmail.com', '794-Bagas Syahputra Reza.jpg', '794-Bagas Syahputra Reza.pdf'),
+(795, 'Cinta Feny Kurnia', 'surabaya,jl. anggur', 'umum', 'Cinta Feny', 'Kurnia88', 'Kurniafeny77@gmail.com', '795-Cinta Feny Kurnia.jpg', '795-Cinta Feny Kurnia.pdf'),
+(796, 'Novemberia Anggun Saputri', 'suarabaya,jl. salak 3', 'dosen', 'Novemberia Saputri', 'saputri889', 'saputrinovemberia99@gmail.com', '796-Novemberia Anggun Saputri.jpg', '796-Novemberia Anggun Saputri.pdf'),
+(797, 'Riko Bagus Saputro', 'surabaya, jl. nanas 9', 'umum', 'Riko saputro', 'saputro009', 'saputrobagus887@gmail.com', '797-Riko Bagus Saputro.jpg', '797-Riko Bagus Saputro.pdf'),
+(798, 'Reza Candra laksana', 'malang, jl. kelapa', 'mahasiswa', 'Reza Laksana', 'Laksana667', 'laksanacandra556@gmail.com', '798-Reza Candra laksana.jpg', '798-Reza Candra laksana.pdf');
 
 --
 -- Indexes for dumped tables
