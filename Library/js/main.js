@@ -468,6 +468,14 @@ $(document).ready(function() {
     $('#dataTable').DataTable();
 }); 
 
+$(document).ready(function () {
+    //counterup
+    $('.counter').counterUp({
+        delay: 10,
+        time: 500
+    });
+});
+
 // AutoHide DOM
 document.addEventListener("DOMContentLoaded", function(){
     el_autohide = document.querySelector('.autohide');
