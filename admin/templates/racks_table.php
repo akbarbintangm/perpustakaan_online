@@ -43,9 +43,9 @@
                 		    <td><?= $no++; ?></td>
                             <td><?= $data['id_rak_buku']; ?></td>
                             <td><?= $data['nama_rak_buku']; ?></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/view.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-info shadow btn-block shadow-sm">Lihat</a></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/edit.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-primary shadow btn-block shadow-sm">Edit</a></td>
-                            <td><a href="<?= BASEURL ?>/admin/racks/delete.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-danger shadow btn-block shadow-sm">Hapus</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/view.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-info shadow btn-block btn-sm shadow-sm">Lihat</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/edit.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-primary shadow btn-block btn-sm shadow-sm">Edit</a></td>
+                            <td><a href="<?= BASEURL ?>/admin/racks/delete.php?id_rak_buku=<?= $data['id_rak_buku']; ?>" class="btn btn-danger shadow btn-block btn-sm shadow-sm">Hapus</a></td>
                         </tr>
             		<?php } ?>
                 </tbody>
