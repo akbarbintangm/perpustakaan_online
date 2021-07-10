@@ -159,7 +159,7 @@
                                 </button>
                             </div>
                         </div>
-                    </form> 
+                    </form>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
