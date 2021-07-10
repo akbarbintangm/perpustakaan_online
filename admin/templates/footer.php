@@ -16,8 +16,8 @@
 
 <!-- Custom -->
 <script src="<?= BASEURL ?>/library/js/main.min.js"></script>
-<script src="js/sb-admin-2.min.js"></script>
-<script src="js/demo/chart-area-demo.js"></script>
-<script src="js/demo/chart-pie-demo.js"></script>
+<script src="<?= BASEURL ?>/library/js/sb-admin-2.min.js"></script>
+<script src="<?= BASEURL ?>/library/js/demo/chart-area-demo.js"></script>
+<script src="<?= BASEURL ?>/library/js/demo/chart-pie-demo.js"></script>
 
 </html>

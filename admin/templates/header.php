@@ -23,5 +23,5 @@
     <link rel="stylesheet" href="<?= BASEURL ?>/library/css/main.min.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/library/css/sb-admin-2.min.css">
 
-    <title></title>
+    <title>Admin</title>
 </head>
