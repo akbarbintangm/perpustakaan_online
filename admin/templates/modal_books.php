@@ -36,7 +36,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputBooksYear1">Tahun Buku</label>
-                                <input type="name" name="inputBooksYear1" class="form-control shadow-sm" id="inputBooksYear1" placeholder="Masukkan Nama" aria-describedby="yearHelp" required="required">
+                                <input type="number" name="inputBooksYear1" class="form-control shadow-sm" id="inputBooksYear1" placeholder="Masukkan Tahun Buku" aria-describedby="yearHelp" required="required">
                             </div>
                         </div>
                         <div class="col-lg" id="extendedData">
