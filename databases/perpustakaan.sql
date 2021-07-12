@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 11, 2021 at 03:10 PM
+-- Generation Time: Jul 12, 2021 at 04:28 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -69,16 +69,16 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`id_buku`, `id_kategori_buku`, `id_rak_buku`, `nama_buku`, `kode_buku`, `penulis_buku`, `penerbit_buku`, `tahun_buku`, `cover_buku`, `file_buku`) VALUES
-(2222, 16789, 33445, 'The grammar of English Grammars', 234, 'Goold Brown', 'mantbooks net', 1851, 'The grammar of English Grammars - Goold Brown.jpg', 'The grammar of English Grammars - Goold Brown.pdf'),
-(3333, 16790, 33446, 'Sistem Informasi Manajemen', 235, 'Eko ganis Sukoharsono', 'Surya Pena Gemilang', 2008, 'Sistem Informasi Manajemen - Eko ganis Sukoharsono.jpg', 'Sistem Informasi Manajemen - Eko ganis Sukoharsono.pdf'),
-(4444, 19791, 33447, 'Pengantar Manajemen ', 236, 'Priyono', 'Zifatama Publisher', 2007, 'Pengantar Manajemen - Priyono.jpg', 'Pengantar Manajemen - Priyono.pdf'),
-(5555, 16792, 33448, 'Arsitektur Nusantara', 237, 'Komunitas Omah Aksara', 'Kementrian Pendidikan dan Kebudayaan', 2017, 'Arsitektur Nusantara - Komunitas Omah Aksara.jpg', 'Arsitektur Nusantara - Komunitas Omah Aksara.pdf'),
-(6666, 19793, 33449, 'Sistem Informasi Desa dan Akses Informasi', 238, 'Puji Rianto, S.Bayu Wahyono', 'PR2Media', 2017, 'Sistem Informasi Desa dan Akses Informasi - Puji Rianto, S.Bayu Wahyono.jpg', 'Sistem Informasi Desa dan Akses Informasi - Puji Rianto, S.Bayu Wahyono.pdf'),
-(7777, 16794, 33410, 'Pemograman Komputer Dasar Dasar Phyton', 239, 'Ismah,Msi', 'FIP UMJ', 2017, 'Pemograman Komputer Dasar Dasar Phyton - Ismah,Msi.jpg', 'Pemograman Komputer Dasar Dasar Phyton - Ismah,Msi.pdf'),
-(8888, 16795, 33451, 'Alice in Wonderland', 240, 'Lewis Carrol', 'Macmillan', 1865, 'Alice in Wonderland - Lewis Carrol.jpg', 'Alice in Wonderland - Lewis Carrol.pdf'),
-(9999, 16796, 33452, 'A Little Princess', 241, 'Frances Hodgson Burnett', 'PT Gramedia Pustaka', 1903, 'A Little Princess - Frances Hodgson Burnett.jpg', 'A Little Princess - Frances Hodgson Burnett.pdf'),
-(10000, 16797, 33453, 'The Story of My Life', 242, 'Helen Keller', 'Javanica', 2017, 'The Story of My Life - Helen Keller.jpg', 'The Story of My Life - Helen Keller.pdf'),
-(20000, 16798, 33454, '24 Jam Pintar Pemograman Android', 243, 'Arif Akbarul Huda', 'Andi Offset', 2020, '24 Jam Pintar Pemograman Android - Arif Akbarul Huda.jpg', '24 Jam Pintar Pemograman Android - Arif Akbarul Huda.pdf');
+(2222, 16789, 33445, 'The grammar of English Grammars', 234, 'Goold Brown', 'mantbooks net', 1851, 'The grammar of English Grammars - Goold Brown.png', 'The grammar of English Grammars - Goold Brown.pdf'),
+(3333, 16790, 33446, 'Sistem Informasi Manajemen', 235, 'Eko ganis Sukoharsono', 'Surya Pena Gemilang', 2008, 'Sistem Informasi Manajemen - Eko ganis Sukoharsono.png', 'Sistem Informasi Manajemen - Eko ganis Sukoharsono.pdf'),
+(4444, 19791, 33447, 'Pengantar Manajemen ', 236, 'Priyono', 'Zifatama Publisher', 2007, 'Pengantar Manajemen - Priyono.png', 'Pengantar Manajemen - Priyono.pdf'),
+(5555, 16792, 33448, 'Arsitektur Nusantara', 237, 'Komunitas Omah Aksara', 'Kementrian Pendidikan dan Kebudayaan', 2017, 'Arsitektur Nusantara - Komunitas Omah Aksara.png', 'Arsitektur Nusantara - Komunitas Omah Aksara.pdf'),
+(6666, 19793, 33449, 'Sistem Informasi Desa dan Akses Informasi', 238, 'Puji Rianto, S.Bayu Wahyono', 'PR2Media', 2017, 'Sistem Informasi Desa dan Akses Informasi - Puji Rianto, S.Bayu Wahyono.png', 'Sistem Informasi Desa dan Akses Informasi - Puji Rianto, S.Bayu Wahyono.pdf'),
+(7777, 16794, 33410, 'Pemograman Komputer Dasar Dasar Phyton', 239, 'Ismah,Msi', 'FIP UMJ', 2017, 'Pemograman Komputer Dasar Dasar Phyton - Ismah,Msi.png', 'Pemograman Komputer Dasar Dasar Phyton - Ismah,Msi.pdf'),
+(8888, 16795, 33451, 'Alice in Wonderland', 240, 'Lewis Carrol', 'Macmillan', 1865, 'Alice in Wonderland - Lewis Carrol.png', 'Alice in Wonderland - Lewis Carrol.pdf'),
+(9999, 16796, 33452, 'A Little Princess', 241, 'Frances Hodgson Burnett', 'PT Gramedia Pustaka', 1903, 'A Little Princess - Frances Hodgson Burnett.png', 'A Little Princess - Frances Hodgson Burnett.pdf'),
+(10000, 16797, 33453, 'The Story of My Life', 242, 'Helen Keller', 'Javanica', 2017, 'The Story of My Life - Helen Keller.png', 'The Story of My Life - Helen Keller.pdf'),
+(20000, 16798, 33454, '24 Jam Pintar Pemograman Android', 243, 'Arif Akbarul Huda', 'Andi Offset', 2020, '24 Jam Pintar Pemograman Android - Arif Akbarul Huda.png', '24 Jam Pintar Pemograman Android - Arif Akbarul Huda.pdf');
 
 -- --------------------------------------------------------
 
