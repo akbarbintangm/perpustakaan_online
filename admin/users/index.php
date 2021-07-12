@@ -17,7 +17,7 @@
             <div id="content">
 
                 <?php require_once "../templates/navbar.php"; ?>
-
+                
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
@@ -27,8 +27,15 @@
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm disabled"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
-
+                    
                     <?php
+                        echo '
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item active" aria-current="page">',BASEURL,'/admin/users/</li>
+                                </ol>
+                            </nav>
+                        ';
                         require_once "../templates/display_dashboard.php";
                         //require_once "./templates/area_charts.php";
                         require_once "../templates/users_table.php";

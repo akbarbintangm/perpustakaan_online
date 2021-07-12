@@ -29,6 +29,13 @@
                     </div>
 
                     <?php
+                        echo '
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item active" aria-current="page">',BASEURL,'/admin/books/</li>
+                                </ol>
+                            </nav>
+                        ';
                         require_once "../templates/display_dashboard.php";
                         //require_once "./templates/area_charts.php";
                         require_once "../templates/books_table.php";
