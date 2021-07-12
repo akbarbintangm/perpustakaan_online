@@ -1,5 +1,15 @@
 <?php
+    session_start();
     require_once "../configurations/index.php";
+    
+    if(!isset($_SESSION['loginAdmin'])) {
+        header('Location:./login/');
+        exit;
+    }
+    else {
+        
+    }
+    
     require_once "./templates/header.php";
 ?>
 

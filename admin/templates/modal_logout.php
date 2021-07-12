@@ -11,8 +11,8 @@
             </div>
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
+                <button class="btn btn-secondary shadow-sm" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-danger shadow-sm" href="./actions/actions_logout.php">Logout</a>
             </div>
         </div>
     </div>

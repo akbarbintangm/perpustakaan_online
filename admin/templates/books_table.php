@@ -37,7 +37,7 @@
                 </tfoot>
                 <tbody>
                     <?php 
-                		$viewBooks = mysqli_query($connect, "SELECT * FROM buku") or die(mysql_error());
+                		$viewBooks = mysqli_query($connect, "SELECT * FROM buku") or die(mysql_error()); 
                 		$no = 1;
                 		while($data = mysqli_fetch_array($viewBooks)){
                 		?>
