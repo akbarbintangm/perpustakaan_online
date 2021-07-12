@@ -1,0 +1,104 @@
+
+  *{
+      margin: 0;
+      padding: 0;
+      font-family:'Quicksand', sans-serif;
+  }
+  th
+  {
+      text-align: left;
+  }
+  h2{
+   text-align: center;
+  }
+body
+{
+ background-color: #f8f8f8;
+}
+  .box-formulir
+  {
+      margin-top: 16%;
+      width: 50%;
+      margin: 10px auto;
+      border: 1px solid;
+      padding: 10px;
+  }
+
+  .box
+  {
+    width: 90%;
+      background-color:white;
+      border: 0px solid #ddd;
+      padding: 10px;
+      box-sizing: border-box;
+      margin: 5px 0 25px;
+  }
+  .form-table
+  {
+      width: 100% ;
+  }
+  .form-table tr td:nth-child(1)
+  {
+      width: 30%;
+  }
+  .input-control
+  {
+      padding: 3px 10px;
+      font-size: 14px;
+  }
+  .btn_simpan
+  {
+      padding: 5px 15px;
+      background-color: blue ;
+      color: white;
+      border: none;
+      font-size: 14px;
+  }
+  .btn_cancel
+  {
+    padding: 5px 15px;
+    background-color: blue ;
+    color: white; 
+    border: none;
+    font-size: 14px;
+  }
+  .content
+  {
+      width: auto;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 0px solid;
+      margin: 20px auto;
+
+  }
+  .table-tampil
+  {
+      width: 100%;
+      border-collapse: collapse;
+      border: 0px solid #ddd;
+      
+
+
+  }
+  .table-tampil tr 
+  {
+    height: 30px;
+    padding-left: 10px;
+  }
+  .btn_hapus
+  {
+      padding: 5px 15px;
+      background-color: blue ;
+      color: white;
+      border: none;
+      font-size: 14px;
+      margin: 10px;
+  }
+  .btn_edit
+  {
+      padding: 5px 15px;
+      background-color: blue ;
+      color: white;
+      border: none;
+      font-size: 14px;
+  }

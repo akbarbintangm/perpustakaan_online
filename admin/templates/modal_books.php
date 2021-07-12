@@ -23,7 +23,7 @@
                     <div class="row" id="standardData">
                         <div class="col-lg" id="standardData">
                             <div class="form-group">
-                                <label for="inputBooksCode">Kode Buku</label>
+                                <label for="inputBooksCode1">Kode Buku</label>
                                 <input type="number" name="inputBooksCode1" class="form-control shadow-sm" id="inputBooksCode1" placeholder="Masukkan Kode Buku" aria-describedby="codeHelp" required="required">
                             </div>
                             <div class="form-group">
