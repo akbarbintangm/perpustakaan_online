@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require_once "../../configurations/index.php";
     require_once "../templates/header.php";
 ?>
@@ -36,6 +37,7 @@
                                 </ol>
                             </nav>
                         ';
+                        require_once "../templates/toast_data.php";
                         require_once "../templates/display_dashboard.php";
                         //require_once "./templates/area_charts.php";
                         require_once "../templates/racks_table.php";

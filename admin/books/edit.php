@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require_once "../../configurations/index.php";
     require_once "../templates/header.php";
 ?>

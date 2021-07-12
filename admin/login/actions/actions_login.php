@@ -1,6 +1,6 @@
 <?php
-    require_once "../../../configurations/index.php";
     session_start();
+    require_once "../../../configurations/index.php";
     
     $inputEmail = $_POST['inputEmail1'];
     $inputPassword = $_POST['inputPassword1'];
@@ -12,6 +12,8 @@
         //if( password_verify($inputPassword, $dataAdmin['password_admin'])){
             $_SESSION['loginAdmin'] = true;
             $_SESSION['idAdmin'] = $dataAdmin['id_admin'];
+            $_SESSION['nameAdmin'] = $dataAdmin['nama_admin'];
+            $_SESSION['usernameAdmin'] = $dataAdmin['username_admin'];
             
             header('Location:../../index.php');
             exit;
