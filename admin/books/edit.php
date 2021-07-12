@@ -32,7 +32,8 @@
                     <?php
                         require_once "../templates/display_dashboard.php";
                         //require_once "./templates/area_charts.php";
-                        require_once "../templates/books_table.php";
+                        //require_once "../templates/books_table.php";
+                        require_once "../templates/edit_books_data.php";
                     ?>
                     
                 </div>

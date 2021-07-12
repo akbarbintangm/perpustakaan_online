@@ -16,7 +16,7 @@
                         <div class="col-lg">
                             <div class="form-group">
                                 <label for="inputBooksName1">Nama Buku</label>
-                                <input type="name" name="inputBooksName1" class="form-control shadow-sm" id="inputBooksName1" placeholder="Masukkan Nama Buku" aria-describedby="nameHelp" required="required">
+                                <input type="na me" name="inputBooksName1" class="form-control shadow-sm" id="inputBooksName1" placeholder="Masukkan Nama Buku" aria-describedby="nameHelp" required="required">
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,13 @@
                                 <label for="inputBooksCategory1">Pilih Kategori Buku</label>
                                 <select class="custom-select shadow-sm" name="inputBooksCategory1" id="inputBooksCategory1" required="required">
                                     <option selected>Pilih Kategori</option>
-                                    <option value=""></option>
+                                    <?php
+                                        $viewObjectCategory = mysqli_query($connect, "SELECT * FROM kategori_buku") or die(mysql_error()); 
+                        		            while($dataObjectCategory = $viewObjectCategory->fetch_assoc()){
+                                                echo "<option value=$dataObjectCategory[id_kategori_buku]>$dataObjectCategory[nama_kategori]</option>";
+                                            }
+                                    ?>
+                                </select>
                                     
                                 </select>
                             </div>
@@ -52,8 +58,12 @@
                                 <label for="inputBooksRacks1">Pilih Rak Buku</label>
                                 <select class="custom-select shadow-sm" name="inputBooksRacks1" id="inputBooksRacks1" required="required">
                                     <option selected>Pilih Rak</option>
-                                    <option value=""></option>
-                                    
+                                    <?php
+                                        $viewObjectRacks = mysqli_query($connect, "SELECT * FROM rak_buku") or die(mysql_error()); 
+                        		            while($dataObjectRacks = $viewObjectRacks->fetch_assoc()){
+                                                echo "<option value=$dataObjectRacks[id_rak_buku]>$dataObjectRacks[nama_rak_buku]</option>";
+                                            }
+                                    ?>
                                 </select>
                             </div>
                             <p class="mb-2">Cover Buku</p>
