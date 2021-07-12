@@ -18,25 +18,11 @@
     <div class="container">
 
         <?php require_once "../templates/login.php"; ?>
-
-        </div>
         <!-- End of Content Wrapper -->
 
     </div>
     <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <?php
-        require_once "../templates/modal_logout.php";
-        require_once "../templates/modal_users.php";
-        require_once "../templates/modal_racks.php";
-        require_once "../templates/modal_category.php";
-        require_once "../templates/modal_books.php";
-    ?>
+    
 </body>
 
 <?php

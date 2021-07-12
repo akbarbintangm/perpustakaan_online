@@ -30,6 +30,17 @@ $(document).ready(function() {
     });
 }); 
 
+$(document).ready(function () {
+    $('#loginData').attr('disabled', 'disabled');
+    $('#inputCheckLogin1').change(function () {
+        if ($('#inputCheckLogin1:checked').length > 0) {
+            $('#loginData').removeAttr('disabled', 'disabled');
+        } else {
+            $('#loginData').attr('disabled', 'disabled');
+        }
+    });
+});
+
 $(document).ready(function() {    
     // Verify Password
     $("#inputPassword2").keyup(function () {
