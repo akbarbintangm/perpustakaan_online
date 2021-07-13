@@ -1,5 +1,6 @@
 <form action="<?= BASEURL; ?>/admin/books/actions/actions_edit.php" method="POST" enctype="multipart/form-data" id="formBooks">
-    <input value="" type="hidden" name="hiddenID" id="hiddenID">
+    <input value="" type="hidden" name="oldCoverImages" id="oldCoverImages">
+    <input value="" type="hidden" name="oldBooksFiles" id="oldBooksFiles">
     <p id="forValidate"></p>
     <div class="row" id="">
         <div class="col-lg">
