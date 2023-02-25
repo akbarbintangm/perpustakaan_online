@@ -4,10 +4,11 @@ define('BASEURL', 'http://localhost:8181/perpustakaan_online');
 
 /* CONFIG DATABASES */
 $servername = "localhost";
+$port = "3307";
 $database = "perpustakaan";
 $username = "root";
-$password = "";
-$connect = mysqli_connect($servername, $username, $password, $database);
+$password = "admin";
+$connect = mysqli_connect($servername.':'.$port, $username, $password, $database);
 if (!$connect) {
     die("Connection failed: " . mysqli_connect_error());
 }
